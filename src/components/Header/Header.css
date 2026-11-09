@@ -1,0 +1,42 @@
+.header {
+    padding: 3.5rem;
+    background-color: #121212;
+}
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    font-size: 4rem;
+    font-weight: 300;
+    color: var(--text-light);
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    gap: 9rem;
+}
+
+.header__list {
+    display: flex;
+    gap: 4.3rem;
+}
+
+.header__list a {
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--text-light);
+}
+
+.header__btn {
+    padding: 1.5rem 2.5rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--text-light);
+    background: #E50914;
+    background: linear-gradient(94deg,rgba(229, 9, 20, 1) 0%, rgba(64, 0, 3, 1) 100%);
+    border-radius: 2rem;
+}
